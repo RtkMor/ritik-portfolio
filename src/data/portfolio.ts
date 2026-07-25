@@ -7,14 +7,14 @@
 export const profile = {
   name: "Ritik Mor",
   role: "Frontend Engineer",
-  location: "Hisar, Haryana, India",
+  location: "Gurgaon, Haryana, India",
   email: "ritikraja45@gmail.com",
   phone: "+91 70569 71111",
   tagline:
     "I build complex, multi-module React & TypeScript applications end to end — role-based dashboards, schema-driven forms, real-time data, and reusable design systems.",
   about:
     "Frontend Engineer with 2 years of production experience building React and TypeScript applications for enterprise B2B and consumer products across fintech, insurance, and logistics. I own complex, multi-module UIs — from role-based consoles and multi-step journeys to reusable component systems — and ramp onto unfamiliar codebases fast. On the side, I've built and shipped a restaurant SaaS solo, now live and in daily use.",
-  resumeUrl: "/resume.pdf", // drop your PDF into /public as resume.pdf
+  resumeUrl: "/resume.pdf",
   socials: {
     github: "https://github.com/RtkMor",
     linkedin: "https://www.linkedin.com/in/ritik-mor-87a716229/",
@@ -76,7 +76,15 @@ export const projects: Project[] = [
     tagline: "Restaurant SaaS · Co-founder & Solo Frontend Engineer",
     description:
       "A production restaurant platform, live and in daily use, with three role-based portals (Customer, Restaurant Admin, Super Admin). Real-time order pipeline over Socket.IO drives a live Kanban board — orders flow from QR scan to kitchen to served with no refresh. Includes an AI chat assistant with SSE streaming and voice input, XLSX bulk menu import, revenue analytics, and Petpooja POS integration.",
-    stack: ["React 19", "TypeScript", "Tailwind CSS v4", "Vite", "Zustand", "Socket.IO", "SSE"],
+    stack: [
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Vite",
+      "Zustand",
+      "Socket.IO",
+      "SSE",
+    ],
     liveUrl: "https://dynamuai.com/",
     featured: true,
   },
@@ -103,10 +111,22 @@ export const skills: SkillGroup[] = [
   },
   {
     title: "UI & Styling",
-    items: ["Tailwind CSS (v3 & v4)", "Chakra UI", "ShadCN/UI", "Responsive / Mobile-first"],
+    items: [
+      "Tailwind CSS (v3 & v4)",
+      "Chakra UI",
+      "ShadCN/UI",
+      "Responsive / Mobile-first",
+    ],
   },
   {
     title: "Practices & Tooling",
-    items: ["Design systems", "Code-splitting", "Figma-to-code", "Git", "Jira", "CSV / XLSX handling"],
+    items: [
+      "Design systems",
+      "Code-splitting",
+      "Figma-to-code",
+      "Git",
+      "Jira",
+      "CSV / XLSX handling",
+    ],
   },
 ];
